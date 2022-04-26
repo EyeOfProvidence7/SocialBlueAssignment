@@ -113,11 +113,4 @@ class Ingredient
     {
         return $this->teaspoonCount;
     }
-
-    /**
-     * @return string
-     */
-    public function __toString(): string{
-        return $this->name;
-    }
 }
