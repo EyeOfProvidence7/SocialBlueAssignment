@@ -5,7 +5,7 @@
         <title></title>
     </head>
     <body>
-        <form action="site.php" method="post">
+        <form action="index.php" method="post">
             <div>
                 <label for="ingredients">Ingredients:</label>
                 <textarea cols="80" rows="10" id="ingredients" name="ingredients"></textarea>
