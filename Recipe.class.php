@@ -82,12 +82,6 @@ class Recipe
             $calories += $ingredient->getCalories();
         }
 
-        foreach([$capacity, $durability, $flavor, $texture] as $property) {
-            if ($property <= 0) {
-                return 0;
-            }
-        }
-
         if ($this->isCalorieLimited && $calories != self::CALORIES) {
             return 0;
         }
