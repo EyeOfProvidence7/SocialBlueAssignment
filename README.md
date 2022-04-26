@@ -2,4 +2,9 @@
 
 ## Running instructions
 
-Open this repo as a project in pycharm, and then just run main.py and it should work. 
+Place the contents of this repository into a folder of your chouce, and within that folder, run a php server like so:
+```
+PHP -S localhost:4000
+```
+
+Requires php 7.4+
